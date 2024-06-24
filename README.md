@@ -23,7 +23,7 @@ bash <(curl -sL bash.icu/gb5)
 或
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/i-abc/GB5/main/gb5-test.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/scarlett518/GB5/main/gb5-test.sh)
 ```
 
 ## 使用截图
