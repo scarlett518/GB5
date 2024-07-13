@@ -200,7 +200,7 @@ _check_swap() {
 # 因为要将结果上传到 browser.geekbench.com 后才能拿到最后的跑分，
 # 但 browser.geekbench.com 仅有 IPv4、不支持 IPv6，测了也是白测。
 _check_ip() {
-    if ! curl -s 'https://gb.151314.xyz/browser.geekbench.com' --connect-timeout 5 >/dev/null; then
+    if ! curl -s 'https://browser.geekbench.com' --connect-timeout 5 >/dev/null; then
         echo -e "对 IPv6 单栈的服务器来说进行测试没有意义，\n因为要将结果上传到 browser.geekbench.com 后才能拿到最后的跑分，\n但 browser.geekbench.com 仅有 IPv4、不支持 IPv6，测了也是白测。"
         exit 1
     fi
