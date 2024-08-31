@@ -317,6 +317,7 @@ _main() {
     clear
     _banner
     _check_locale
+    _check_ip
     _check_package wget wget
     _check_package tar tar
     # _check_package fallocate util-linux
