@@ -15,7 +15,7 @@ geekbench_riscv64_official_sha256="65070301ccedd33bfd4797a19e9d28991fe719cc38570
 
 # 下载源
 url_1="https://cdn.geekbench.com"
-url_2="https://gb5.151314.xyz/cdn.geekbench.com"
+url_2="https://gb5.123415.xyz/cdn.geekbench.com"
 
 # 测试工作目录
 dir="./gb5-github-i-abc"
